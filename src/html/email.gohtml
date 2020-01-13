@@ -1,0 +1,17 @@
+{{with .Account -}}
+Dear {{.FirstName}} {{.LastName}},
+{{- end}}
+
+
+{{if .Purchases -}}
+    Your purchases:
+    {{- range .Purchases }}
+        {{ printf "%-20s" .Description }}
+    {{- end}}
+{{- else}}
+You didn't make any purchases during the period.
+{{- end}}
+
+
+Best Wishes,
+Customer Service
