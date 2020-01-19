@@ -62,6 +62,7 @@ func decrypt(ciphertext []byte, key []byte) ([]byte, error) {
 	nonceSize := gcm.NonceSize()
 	if len(ciphertext) < nonceSize {
 		return nil, errors.New("ciphertext too short")
+		gcm.NonceSize()
 	}
 
 	nonce, ciphertext := ciphertext[:nonceSize], ciphertext[nonceSize:]

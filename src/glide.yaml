@@ -1,0 +1,15 @@
+package: lab1/src
+import:
+- package: github.com/go-sql-driver/mysql
+  version: v1.5.0
+- package: github.com/gookit/validate
+  version: v1.2.0
+- package: github.com/gorilla/mux
+  version: v1.7.3
+- package: github.com/gorilla/securecookie
+  version: v1.1.1
+- package: github.com/satori/go.uuid
+  version: v1.2.0
+- package: golang.org/x/crypto
+  subpackages:
+  - bcrypt
