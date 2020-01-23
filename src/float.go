@@ -14,6 +14,6 @@ func main()  {
 	fmt.Println("x - y =",x - y )
 	fmt.Println("x * y =",x * y)
 	fmt.Println("x / y =",x / y)
-	fmt.Println("x % y =",x % y) // % is not defined for float64
+	//fmt.Println("x % y =",x % y) // % is not defined for float64
 }
 
