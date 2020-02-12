@@ -8,7 +8,7 @@ import (
 type Student struct {
 	firstName string
 	lastName  string
-	age       int
+	age       int // default value  = 0
 }
 
 var Students = [] Student{

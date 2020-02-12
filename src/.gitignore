@@ -1,2 +1,4 @@
 *.exe
 /json/main
+vendor
+glide.lock
